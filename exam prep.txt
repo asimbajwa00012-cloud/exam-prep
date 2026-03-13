@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam Preparation Hub</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#eef2f7;
+}
+
+header{
+background:#1e3a8a;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#2563eb;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+padding:30px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.box{
+background:white;
+width:250px;
+margin:15px;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.box h2{
+color:#1e3a8a;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e40af;
+}
+
+footer{
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Exam Preparation Hub</h1>
+<p>Past Papers | Solved MCQs | Exam Preparation</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">MDCAT</a>
+<a href="#">CSS</a>
+<a href="#">DBT</a>
+<a href="#">Past Papers</a>
+<a href="#">Online Quiz</a>
+</nav>
+
+<div class="container">
+
+<div class="box">
+<h2>MDCAT</h2>
+<p>MDCAT past papers and solved MCQs.</p>
+<button>Start Study</button>
+</div>
+
+<div class="box">
+<h2>CSS</h2>
+<p>CSS preparation past papers.</p>
+<button>Start Study</button>
+</div>
+
+<div class="box">
+<h2>DBT</h2>
+<p>Important DBT solved questions.</p>
+<button>Start Study</button>
+</div>
+
+<div class="box">
+<h2>Past Papers</h2>
+<p>Download previous exam papers.</p>
+<button>View Papers</button>
+</div>
+
+</div>
+
+<footer>
+<p>Website Owner: Frayal</p>
+</footer>
+
+</body>
+</html>
